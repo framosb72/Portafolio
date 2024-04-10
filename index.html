@@ -7,32 +7,32 @@
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fonte del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- Fonte del Proyecto Raleway 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title> Mi Portafolio</title>
 </head>
 <body>
     <!-- Sección del Menú  -->
     <div class="tudo">
-    <section class="menu">
-        <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Fernando Ramos Burgos</h3>
+        <header>
+            <nav class="cabecera__container">
+                <img class="logo__item" src="assets\vector.png">
+                <h3 class="menu__title">Fernando Ramos Burgos</h3>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                    <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+                </ul>
+                <a href="#contacto">fernando.ramos.burgos@gmail.com</a>
+            </nav>
         </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
-            </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
-        </nav>
-    </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">

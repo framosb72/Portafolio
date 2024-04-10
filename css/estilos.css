@@ -1,3 +1,34 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cabecera__container {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.logo__item {
+    background-repeat: no-repeat;
+    padding: 15px 15px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.menu__title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
 section.hobbies{
     
 }
