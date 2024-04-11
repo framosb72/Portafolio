@@ -9,11 +9,9 @@ body {
     text-align: center;
 }
 
-.cabecera__container {
-    background-color: gray;
+header {
+    background-color:violet;
     height: 80px;
-    width: 100%;
-    padding: 0 25px;
 }
 
 .logo__item {
@@ -24,9 +22,16 @@ body {
     cursor: pointer;
 }
 
+.cabecera__container {
+    width: fit-content;
+    padding: 0 25px;
+}
+
+
 .menu__title {
     font-weight: bold;
     font-size: 16px;
+    width: fit-content;
 }
 
 .menu__list__item {
