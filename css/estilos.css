@@ -6,7 +6,7 @@ body {
     overflow: auto;
     font-size: 14px;
     box-sizing: border-box;
-    text-align: center;
+    background-color: lightgray;
 }
 
 header {
@@ -27,7 +27,6 @@ header {
     padding: 0 25px;
 }
 
-
 .menu__title {
     font-weight: bold;
     font-size: 16px;
@@ -43,6 +42,14 @@ header {
     height: 50px;
 }
 
+.title__container {
+    padding: 15px 15px;
+}
+
+.title__subsection {
+    padding: 10px 0px;
+}
+
 .title__bio {
     font-size: 18px;
     font-weight: bold;
@@ -52,53 +59,16 @@ header {
     display: inline;
 }
 
-section.hobbies{
-    
+
+
+.about__title {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 15px;
 }
 
-/* Experiencia Académica*/
-
-section.academic{
-
-}
-
-/* experiencia*/
-
-section.experience{
-
-}
-
-/*Contacto*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+.about__paragraph {
+    padding: 10px 15px;
 }
 
 /*Mobile*/
