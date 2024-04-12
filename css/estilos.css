@@ -59,7 +59,9 @@ header {
     display: inline;
 }
 
-
+.about {
+    background-color: lightcyan;
+}
 
 .about__title {
     font-weight: bold;
@@ -69,6 +71,23 @@ header {
 
 .about__paragraph {
     padding: 10px 15px;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills__box {
+    display: flex;
+    background-color: white;
+    width: 100px;
+    align-items: center;
+}
+
+.skills__image {
+    margin-top: 1rem;
 }
 
 /*Mobile*/
