@@ -73,21 +73,21 @@ header {
     padding: 10px 15px;
 }
 
-.skills__title {
+.skills__title, .hobbies__title, .experience__section__title, .contacto__title{
     font-size: 16px;
     font-weight: bold;
     text-align: center;
     padding: 15px 0px;
 }
 
-.skills__line {
+.skills__line, .hobbies__line {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 15px;
     gap: 10px;
 }
 
-.skills__box {
+.skills__box, .hobbies__box {
     display: flex;
     background-color: white;
     width: 100px;
@@ -98,29 +98,6 @@ header {
 
 .skills__box ul {
     width: 100px;
-}
-
-.hobbies__title {
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px 0px;
-}
-
-.hobbies__line {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 15px;
-    gap: 10px;
-}
-
-.hobbies__box {
-    display: flex;
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    align-items:center;
-    text-align: center;
 }
 
 .hobbies__box ul {
@@ -166,11 +143,75 @@ header {
     gap: 10px;
 }
 
+/*
 .experience__section__title {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 15px;
     text-align: center;    
+}
+*/
+
+.experience__img {
+    width: 100%;    
+}
+
+.experiencia__botao--repo{
+    width: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: dodgerblue;
+    padding: 10px 10px;
+    color: dodgerblue;
+}
+
+.experience__demo { 
+    margin-left: 10px;
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+.experiencie__box {
+    padding: 10px 15px 0px 15px;
+}
+
+.experience__text {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.formcontato--esquerda {
+    display : none;
+}
+
+.formcontato__text h2  {
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
+.formcontato__contacto{
+    margin: 10px 0px 10px 15px;
+}
+
+.formcontato__text {
+    background-color: aquamarine;
+    width: 90%;
+}
+
+.formcontato__input {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+}
+
+footer {
+    font-size: 20px;
+    padding: 25px 0px;
+    background-color: white;
+    text-align: center;
 }
 
 /*Mobile*/
