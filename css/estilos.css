@@ -10,7 +10,6 @@ body {
 }
 
 header {
-    background-color:violet;
     height: 80px;
 }
 
@@ -143,20 +142,11 @@ header {
     gap: 10px;
 }
 
-/*
-.experience__section__title {
-    font-weight: bold;
-    font-size: 16px;
-    padding: 15px 15px;
-    text-align: center;    
-}
-*/
-
 .experience__img {
     width: 100%;    
 }
 
-.experiencia__botao--repo{
+.experiencia__botao--repo {
     width: 100px;
     border: 1px;
     border-style: solid;
@@ -165,9 +155,9 @@ header {
     color: dodgerblue;
 }
 
-.experience__demo { 
+.experience__demo, .formcontato__botao  { 
     margin-left: 10px;
-    width: 300px;
+    width: 150px;
     padding: 10px 10px;
     font-size: 12px;
     color: white;
@@ -176,6 +166,10 @@ header {
 
 .experiencie__box {
     padding: 10px 15px 0px 15px;
+}
+
+.experience__title{
+    margin-bottom: 15px;
 }
 
 .experience__text {
@@ -197,14 +191,17 @@ header {
 }
 
 .formcontato__text {
-    background-color: aquamarine;
     width: 90%;
 }
 
-.formcontato__input {
+.formcontato__input, .formcontato__textarea {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 80%;
+}
+
+.formcontato__form{
+    margin-top: 10px;
 }
 
 footer {
